@@ -18,7 +18,7 @@
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-light bg-transparent sticky-top">
-        <div class="container-fluid mx-0">
+        <div class="container-fluid">
             <a class="navbar-brand m-0 p-2 d-md-none d-lg-block" href="#">POOJAN</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -380,28 +380,32 @@
                     <div class="col-10 col-lg-8 mb-5 mb-md-0 text-start text-white">
                         <!-- <div class="container"> -->
                         <div class="row input-container">
-                            <div class="col-xs-12">
-                                <div class="styled-input wide">
-                                    <input type="text" required />
-                                    <label>Name</label>
+                            <form
+                                action="https://script.google.com/macros/s/AKfycbxOkdQbjoFMnd0xuLi_K9uyGPY_oO7MdmTYjZbHHTIgHvdVHZ4cR4H9rDvf_JRIQ_h0/exec"
+                                method="post">
+                                <div class="col-xs-12">
+                                    <div class="styled-input wide">
+                                        <input type="text" name="name" required />
+                                        <label>Name</label>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-xs-12">
-                                <div class="styled-input wide">
-                                    <input type="text" required />
-                                    <label>Email</label>
+                                <div class="col-xs-12">
+                                    <div class="styled-input wide">
+                                        <input type="text" name="email" required />
+                                        <label>Email</label>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-xs-12">
-                                <div class="styled-input wide">
-                                    <textarea required></textarea>
-                                    <label>Message</label>
+                                <div class="col-xs-12">
+                                    <div class="styled-input wide">
+                                        <textarea name="message" required></textarea>
+                                        <label>Message</label>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-xs-12">
-                                <button class="slide mx-0">Shoot &nbsp;<i
-                                        class="fa-regular fa-light fa-paper-plane"></i></button>
-                            </div>
+                                <div class="col-xs-12">
+                                    <button type="submit" class="slide mx-0">Shoot &nbsp;<i
+                                            class="fa-regular fa-light fa-paper-plane"></i></button>
+                                </div>
+                            </form>
                         </div>
                         <!-- </div> -->
                     </div>
