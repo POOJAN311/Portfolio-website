@@ -27,16 +27,16 @@
             <div class="collapse navbar-collapse flex-column" id="navbarNav">
                 <ul class="navbar-nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link m-3 text-white" href="#">HOME</a>
+                        <a class="nav-link m-3 text-white" href="#Home">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link m-3 text-white" href="#">ABOUT</a>
+                        <a class="nav-link m-3 text-white" href="#About">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link m-3 text-white" href="#">PROJECTS</a>
+                        <a class="nav-link m-3 text-white" href="#Projects">PROJECTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link m-3 text-white" href="#">CONTACT</a>
+                        <a class="nav-link m-3 text-white" href="#Contact">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -44,14 +44,14 @@
     </nav>
 
     <!-- Home section -->
-    <section class="container-fluid mx-0">
+    <section id="Home" class="container-fluid mx-0">
         <div class="row align-items-center mx-0">
             <div class="col-md-6 text-center order-1 order-md-1">
                 <div class="row mx-0 justify-content-center">
                     <div data-aos="fade-right" data-aos-delay="50" data-aos-easing="ease" data-aos-duration="1000"
                         class="col-10 col-lg-8 mb-2 mb-md-0 text-start text-white">
                         <p class="text-warning">HELLO !!</p>
-                        <h2 class="display-5 text-warning"><span class="text-white hline">I'M</span> POOJAN PATEL</h2>
+                        <h2 class="display-5 text-warning"><span class="text-white">I'M</span> POOJAN PATEL</h2>
                         <br>
                         <p class="fs-5">
                             A Frontend focused Web Developer who loves to create beautiful and performant products with
@@ -68,7 +68,7 @@
     </section>
 
     <!-- About section -->
-    <section class="container-fluid mx-0">
+    <section id="About" class="container-fluid mx-0">
         <div class="row align-items-center mx-0">
             <div data-aos="fade-right" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease"
                 class="col-md-6 order-2 order-sm-1 mb-5 mb-md-0 d-none d-md-block d-lg-block order-md-1">
@@ -91,7 +91,9 @@
                         <p class="fs-5 text-justify">When I'm not pushing pixels, you'll find me playing football or
                             working out in my room.
                         </p>
-                        <button class="slide mx-0">Download CV</button>
+                        <form action="POOJAN_PATEL.pdf" method="get">
+                            <button type="submit" class="slide mx-0">Download CV</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -147,7 +149,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section class="container-fluid mx-0">
+    <section id="skills" class="container-fluid mx-0">
         <div data-aos="fade-up" data-aos-offset="170" data-aos-delay="10" data-aos-duration="1000"
             data-aos-easing="ease" class="d-flex justify-content-center text-white content1">
             <h1 class="display-6 fw-bold hline">SKILLS</h1>
@@ -212,7 +214,7 @@
     </section>
 
     <!-- Project Section -->
-    <section class="container-fluid mx-0">
+    <section id="Projects" class="container-fluid mx-0">
         <div data-aos="fade-down" data-aos-offset="170" data-aos-delay="10" data-aos-duration="1000"
             data-aos-easing="ease" class="d-flex justify-content-center text-white content1">
             <h1 class="display-6 fw-bold hline">PROJECTS</h1>
@@ -237,7 +239,8 @@
                                 helps
                                 you to understand various features of bootstrap. And I do love Candy's and sweets.
                             </p>
-                            <button class="prslide"><span class="fw-bold">Github</span> <i class="fa fa-github"
+                            <button onclick="window.location.href='https://github.com/POOJAN311/MuseumOfCandys'"
+                                class="prslide"><span class="fw-bold">Github</span> <i class="fa fa-github"
                                     style="font-size:20px"></i></button>
                             <button class="slide"><span class="fw-bold">Demos </span><i class="fa fa-file-powerpoint-o"
                                     style="font-size:20px"></i></button>
@@ -256,7 +259,8 @@
                                 used Pure CSS and No JavaScript.You can use this type of effect in the opening of
                                 the
                                 website.</p>
-                            <button class="prslide"><span class="fw-bold">Github</span> <i class="fa fa-github"
+                            <button onclick="window.location.href='https://github.com/POOJAN311/Parallax-Effect'"
+                                class="prslide"><span class="fw-bold">Github</span> <i class="fa fa-github"
                                     style="font-size:20px"></i></button>
                             <button class="slide"><span class="fw-bold">Demos </span><i class="fa fa-file-powerpoint-o"
                                     style="font-size:20px"></i></button>
@@ -278,7 +282,8 @@
                                 The website can also take feedback from the customer and can book tables early
                                 accordingly.
                             </p>
-                            <button class="prslide"><span class="fw-bold">Github</span> <i class="fa fa-github"
+                            <button onclick="window.location.href='https://github.com/POOJAN311/Tasteit'"
+                                class="prslide"><span class="fw-bold">Github</span> <i class="fa fa-github"
                                     style="font-size:20px"></i></button>
                             <button class="slide"><span class="fw-bold">Demos </span><i class="fa fa-file-powerpoint-o"
                                     style="font-size:20px"></i></button>
@@ -297,7 +302,8 @@
                             <p class="card-text">This is the first-version of my portfolio website which has many
                                 mistakes and updates.I just made it out of curiosity and it comes out
                                 pretty good so thats why i mentioned it in project section. </p>
-                            <button class="prslide"><span class="fw-bold">Github</span> <i class="fa fa-github"
+                            <button onclick="window.location.href='https://github.com/POOJAN311/Portfolio'"
+                                class="prslide"><span class="fw-bold">Github</span> <i class="fa fa-github"
                                     style="font-size:20px"></i></button>
                             <button class="slide"><span class="fw-bold">Demos </span><i class="fa fa-file-powerpoint-o"
                                     style="font-size:20px"></i></button>
@@ -317,7 +323,9 @@
                                 have
                                 made some updates in frontend section which made the user
                                 experience better, also made it more responsive for all systems.</p>
-                            <button class="prslide"><span class="fw-bold">Github</span> <i class="fa fa-github"
+                            <button class="prslide"
+                                onclick="window.location.href='https://github.com/POOJAN311/POOJAN311.github.io'"><span
+                                    class="fw-bold">Github</span> <i class="fa fa-github"
                                     style="font-size:20px"></i></button>
                             <button class="slide"><span class="fw-bold">Demos </span><i class="fa fa-file-powerpoint-o"
                                     style="font-size:20px"></i></button>
@@ -338,7 +346,8 @@
                                 model websites.I have simply used HTML/CSS for the sake of practice which made me
                                 learn
                                 about responsiveness.</p>
-                            <button class="prslide"><span class="fw-bold">Github</span> <i class="fa fa-github"
+                            <button onclick="window.location.href='https://github.com/POOJAN311/POOJAN311.github.io'"
+                                class="prslide"><span class="fw-bold">Github</span> <i class="fa fa-github"
                                     style="font-size:20px"></i></button>
                             <button class="slide"><span class="fw-bold">Demos </span><i class="fa fa-file-powerpoint-o"
                                     style="font-size:20px"></i></button>
@@ -351,12 +360,12 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="container-fluid mx-0">
+    <section id="Contact" class="container-fluid mx-0">
         <div data-aos="fade-up" data-aos-offset="170" data-aos-delay="10" data-aos-duration="1000"
             data-aos-easing="ease" class="d-flex justify-content-center text-white content0">
             <h1 class="display-6 fw-bold hline">CONTACT</h1>
         </div>
-        <div class="row align-items-center">
+        <div class="row mx-0 align-items-center">
             <div data-aos="fade-right" data-aos-offset="170" data-aos-delay="10" data-aos-duration="1000"
                 data-aos-easing="ease" class="col-md-6">
                 <div class="row justify-content-center text-warning">
@@ -374,41 +383,30 @@
                     </div>
                 </div>
             </div>
-            <div data-aos="fade-left" data-aos-offset="170" data-aos-delay="10" data-aos-duration="1000"
-                data-aos-easing="ease" class="col-md-6">
-                <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8 mb-5 mb-md-0 text-start text-white">
-                        <!-- <div class="container"> -->
-                        <div class="row input-container">
-                            <form
-                                action="https://script.google.com/macros/s/AKfycbxOkdQbjoFMnd0xuLi_K9uyGPY_oO7MdmTYjZbHHTIgHvdVHZ4cR4H9rDvf_JRIQ_h0/exec"
-                                method="post">
-                                <div class="col-xs-12">
-                                    <div class="styled-input wide">
-                                        <input type="text" name="name" required />
-                                        <label>Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12">
-                                    <div class="styled-input wide">
-                                        <input type="text" name="email" required />
-                                        <label>Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12">
-                                    <div class="styled-input wide">
-                                        <textarea name="message" required></textarea>
-                                        <label>Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-xs-12">
-                                    <button type="submit" class="slide mx-0">Shoot &nbsp;<i
-                                            class="fa-regular fa-light fa-paper-plane"></i></button>
-                                </div>
-                            </form>
+            <div class="col-md-6">
+                <div class="container">
+                    <form method="post"
+                        action="https://script.google.com/macros/s/AKfycbxOkdQbjoFMnd0xuLi_K9uyGPY_oO7MdmTYjZbHHTIgHvdVHZ4cR4H9rDvf_JRIQ_h0/exec">
+                        <div class="form-group">
+                            <label class="text-white mb-2" for="formGroupExampleInput">NAME</label>
+                            <input type="text" name="name" class="form-control mb-2 bg-transparent text-white"
+                                id="formGroupExampleInput" placeholder="Enter your name">
                         </div>
-                        <!-- </div> -->
-                    </div>
+                        <div class="form-group">
+                            <label class="text-white mb-2" for="formGroupExampleInput2">EMAIL</label>
+                            <input type="text" name="email" class="form-control mb-2 bg-transparent text-white"
+                                id="formGroupExampleInput2" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1" class="text-white mb-2 form-label">MESSAGE</label>
+                            <textarea name="message" class="mb-2 bg-transparent text-white form-control"
+                                id="exampleFormControlTextarea1" rows="3" placeholder="Enter your message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="slide mx-0" type="submit">Shoot &nbsp;<i
+                                    class="fa-regular fa-paper-plane"></i></button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -419,24 +417,28 @@
         <footer>
             <ul class="icons" style="font-size: xx-large;">
                 <li>
-                    <a class="github" href="#"><i class="fab fa-github icon"></i></a>
+                    <a class="github" href="https://github.com/POOJAN311"><i class="fab fa-github icon"></i></a>
                 </li>
                 <li>
-                    <a class="facebook" href="#">
+                    <a class="facebook" href="https://www.facebook.com/poojan.patel.9883739?mibextid=ZbWKwL">
                         <i class="fab fa-facebook-f icon"></i></a>
                 </li>
                 <li>
-                    <a class="linkedin" href="#"><i class="fab fa-linkedin-in icon"></i></a>
+                    <a class="linkedin" href="https://www.linkedin.com/in/poojan-patel02/"><i
+                            class="fab fa-linkedin-in icon"></i></a>
                 </li>
                 <li>
-                    <a class="instagram" href="#"><i class="fab fa-instagram icon"></i></a>
+                    <a class="instagram"
+                        href="https://www.instagram.com/invites/contact/?i=124fz3fw5xzbj&utm_content=hob7hf5"><i
+                            class="fab fa-instagram icon"></i></a>
                 </li>
             </ul>
             <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact Us</a></li>
             </ul>
             <div class="footer-copyright">
                 <p>Copyright @ 2023 All Rights Reserved.</p>
